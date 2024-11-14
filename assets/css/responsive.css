@@ -1,0 +1,28 @@
+@media (min-width: 800px){
+    figure{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        gap: 2%;
+        overflow: hidden;
+    }
+    figure.img{
+        width: 100%;
+        object-fit: cover;
+    }
+    figcaption{
+        flex-basis: 47%;
+    }
+}
+@media (min-width: 550px){
+    section ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    section li{
+        flex-basis: 49.5%;
+    }
+
+    
+}
